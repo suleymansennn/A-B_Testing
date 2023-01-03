@@ -100,10 +100,10 @@ Test         582.10610
 When we analyze the mean of the two groups mathematically, there seems to be a difference. We can say that the test 
 group is better. But to prove this statistically, we need to run a hypothesis test.
 """
-
-# 1. Normality Assumption
 # Ho: There is no statistically significant difference between the means of the two groups distribution
 # Ha: There is statistically significant difference between the means of the two groups
+
+# 1. Normality Assumption
 test_stat, pvalue = shapiro(df.loc[df["Control-Test"] == "Control", "Purchase"])
 print("Test Stat = %.4f, pvalue = %.4f" % (test_stat, pvalue)) # Test Stat = 0.9773, pvalue = 0.5891
 
