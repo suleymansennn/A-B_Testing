@@ -1,6 +1,6 @@
 # A-B Testing
 
-<img width="450" alt="AB-Testing" src="https://user-images.githubusercontent.com/83352965/210342270-7a43769f-4ca3-4987-9575-2f3345ea0e76.png">
+<img width="800" alt="AB-Testing" src="https://user-images.githubusercontent.com/83352965/210342270-7a43769f-4ca3-4987-9575-2f3345ea0e76.png">
 
 # Business Problem
 Recently, Facebook introduced a new bidding type called "average bidding" as an alternative to the current "maximum bidding" type.
